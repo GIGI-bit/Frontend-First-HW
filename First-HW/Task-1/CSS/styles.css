@@ -1,0 +1,160 @@
+.categories-div {
+  display: flex;
+  justify-content: space-evenly;
+  width: 130vh;
+  margin-bottom: 3vh;
+}
+
+.categories-div > div {
+  width: 500px;
+  border-radius: 100px;
+}
+
+.categories-name {
+  font-size: 45px;
+  font-family: Roboto;
+  font-weight: 500;
+  color: rgb(187, 189, 200);
+  text-align: center;
+}
+
+.selected {
+  background-color: gray;
+}
+
+.selected > p {
+  color: white;
+}
+
+.users-div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 85vh;
+  gap: 2vh;
+  margin-left: 20vh;
+}
+
+.profile-div {
+  width: 30vh;
+  padding: 5vh;
+  border-radius: 20px;
+}
+
+.profile-more {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-picture {
+  width: 7vh;
+  margin-bottom: 30px;
+}
+
+.more-dots {
+  width: 80px;
+  height: 58px;
+}
+
+.blue {
+  background-image: linear-gradient(
+    to bottom right,
+    #14b0d5,
+    rgb(177, 230, 244)
+  );
+}
+
+.yellow {
+  background-image: linear-gradient(
+    to bottom right,
+    #dabe2a,
+    rgb(247, 236, 156)
+  );
+}
+
+.green {
+  background-image: linear-gradient(
+    to bottom right,
+    #2adabb,
+    rgb(191, 249, 238)
+  );
+}
+
+.purple {
+  background-image: linear-gradient(
+    to bottom right,
+    #8852d8,
+    rgb(210, 182, 247)
+  );
+}
+
+.orange {
+  background-image: linear-gradient(
+    to bottom right,
+    #dc9b1f,
+    rgb(242, 207, 171)
+  );
+}
+
+.pink {
+  background-image: linear-gradient(
+    to bottom right,
+    #e84b8d,
+    rgb(239, 177, 223)
+  );
+}
+
+.progress-bar {
+  background-color: rgb(211, 209, 209);
+  width: 100%;
+  border-radius: 15px;
+}
+
+.progress {
+  background-color: white;
+
+  padding: 1%;
+
+  border-radius: 15px;
+}
+
+.progress-blue {
+  width: 70%;
+}
+
+.progress-yellow {
+  width: 90%;
+}
+
+.progress-green {
+  width: 60%;
+}
+
+.progress-purple {
+  width: 55%;
+}
+
+.progress-orange {
+  width: 70%;
+}
+
+.progress-pink {
+  width: 20%;
+}
+
+.profile-header {
+  font-family: Roboto;
+  color: white;
+  font-weight: 500;
+  text-align: left;
+  font-size: 3vh;
+  width: 15vh;
+  margin-bottom: 0px;
+}
+
+.profile-text {
+  color: white;
+  font-family: Roboto;
+  font-size: 2vh;
+  margin-bottom: 4vh;
+}

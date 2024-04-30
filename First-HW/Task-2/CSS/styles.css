@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body-div {
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  flex-wrap: wrap;
+}
+
+.header {
+  font-size: 70px;
+  font-family: Roboto;
+  color: #262626;
+  margin-bottom: 40px;
+}
+
+.body-div > div {
+  width: 200px;
+  height: 200px;
+}
+
+.text {
+  font-size: 25px;
+  font-family: Roboto;
+  color: #262626;
+  font-weight: 500;
+}
+
+.walking-div {
+  background-image: url(/Images/walk.png);
+  background-size: 120px;
+  background-position: right;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+  margin: 0px 20px 40px 0px;
+}
+
+.cycling-div {
+  background-image: url(/Images/bicycle.png);
+  background-size: 135px;
+  background-position: right;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+  margin: 0px 0px 40px 20px;
+}
+
+.driving-div {
+  background-image: url(/Images/automobile.png);
+  /* transform: rotateY(180deg); */
+  background-size: 140px;
+  background-position: right;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+  margin: 0px 20px 40px 0px;
+}
+
+.train-div {
+  background-image: url(/Images/train.png);
+  background-size: 140px;
+  background-position: right;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+  margin: 0px 0px 40px 20px;
+}
+
+.hiking-div {
+  background-image: url(/Images/hiker.png);
+  background-size: 120px;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-y: bottom;
+  margin: 0px 20px 0px 0px;
+}
+
+.flight-div {
+  background-image: url(/Images/plane.png);
+  background-size: 120px;
+  background-position: right;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+  margin: 0px 0px 0px 20px;
+}
